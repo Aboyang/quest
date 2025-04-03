@@ -1,0 +1,92 @@
+
+.tasks {
+
+  padding-left: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 8px;
+}
+
+.task {
+
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  padding-left: 32px;
+  
+  height: 48px;
+  width: 280px;
+
+  background-color: goldenrod;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+  border-radius: 16px;
+}
+
+.completed {
+  background-color: green;
+}
+
+.active {
+  background-color: brown;
+}
+
+.entry {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 280px;
+  height: 48px;
+}
+
+.entry>input {
+
+  box-sizing: border-box;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1em;
+
+  width: 90%;
+  height: 100%;
+
+  border: none;
+
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+
+
+  margin: 0;
+  padding-left: 32px;
+
+  box-sizing: border-box;
+
+}
+
+.entry>button {
+
+  box-sizing: border-box;
+  margin: 0;
+  border: none;
+  height: 100%;
+  width: 20%;
+
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+
+
+  background-color: white;
+
+  font-size: 1.4em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
